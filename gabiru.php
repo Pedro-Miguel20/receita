@@ -2,7 +2,7 @@
 
 require __DIR__ . "/database.php";
 
-$usm = $_POST["nome"];
+$usm = $_POST["username"];
 $psm = $_POST["password"];
 
 $hash_pass = password_hash(($psm), PASSWORD_DEFAULT);
