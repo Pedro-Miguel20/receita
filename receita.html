@@ -35,7 +35,7 @@
             <h3>Log in</h3>
             <div class="box">
               <form action="process-login" method="POST" autocomplete="off">
-                <input id="email2" type="email2" placeholder="email">
+                <input id="email2" type="email2" name="email2" placeholder="email">
                 <input type="password2" id="password2" name="password2" placeholder="password">
 
                 <input id="submit2" type="submit">
@@ -46,8 +46,8 @@
           <div class="forms sign">
             <h3>Sign up</h3>
             <form action="gabiru.php" method="POST">
-              <input id="name" type="name" placeholder="name">
-              <input id="email2" type="email" placeholder="email">
+              <input id="name" type="name" placeholder="name" name="name">
+              <input id="email2" type="email" placeholder="email" name="email">
               <input type="password" id="password" class="password" name="password" placeholder="password" minlength="7" onkeyup='check();' required>
 
               <input type="password" id="confirm_password" name="confirm_password" placeholder="confirm password" onkeyup='check();'>
