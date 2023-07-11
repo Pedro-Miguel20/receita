@@ -1,0 +1,63 @@
+<html>
+
+<head>
+  <meta charset="UTF-8">
+
+  <meta name="viewport" content="initial-scale=1">
+  <link href="https://use.fontawesome.com/releases/v5.0.4/css/all.css" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+  <div class="mytabs">
+    <input type="radio" id="tabfree" name="mytabs" checked="checked">
+    <label for="tabfree" class="icon1 icone">Logo</label>
+    <div class="tab">
+      <div class="main">
+        <div class="text">
+          <h1>teste1</h1>
+        </div>
+      </div>
+    </div>
+    <div class="tab">
+    </div>
+    <form action="receita.php" method="post">
+      <button type="submit" id="button">Criar receita</button>
+    </form>
+    <input type="radio" id="tabgold" name="mytabs">
+    <label for="tabgold" class="icon3 icone">Profile</label>
+    <div class="tab">
+      <div id="body">
+        <div class="tudo">
+
+          <div class="forms log">
+
+            <h3>Log in</h3>
+            <div class="box">
+              <form action="" method="" autocomplete="off">
+                <input id="email2" type="email2" placeholder="email">
+                <input type="password2" id="password2" name="password2" placeholder="password">
+
+                <input id="submit2" type="submit">
+                <p class="text">don't you have an account?<a href="#" class="signlink"> register</a></p>
+            </div>
+          </div>
+
+          <div class="forms sign">
+            <h3>Sign up</h3>
+            <form action="gabiru.php" method="post">
+              <input id="name" type="name" placeholder="name">
+              <input id="email2" type="email" placeholder="email">
+              <input type="password" id="password" class="password" name="password" placeholder="password" minlength="7" onkeyup='check();' required>
+
+              <input type="password" id="confirm_password" name="confirm_password" placeholder="confirm password" onkeyup='check();'>
+
+              <input id="submit" type="submit">
+
+              <p class="text">do already have?<a href="#" class="loglink"> log in</a></p>
+          </div>
+        </div>
+      </div>
+</body>
+
+</html>
