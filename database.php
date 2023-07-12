@@ -1,9 +1,9 @@
 <?php 
 
 $servidor = "localhost";
-$usuario = "id20972808_rooter";
-$senha = "Ninja01!";
-$dbname = "id20972808_user_db";
+$usuario = "id21026494_conta";
+$senha = "Prea@666";
+$dbname = "id21026494_receita";
 
 $conn = mysqli_connect($servidor, $usuario, $senha, $dbname);
 
